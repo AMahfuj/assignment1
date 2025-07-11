@@ -1,0 +1,43 @@
+
+
+.inter-logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+nav a button{
+  border-color: #4E47FF;
+  background-color: #4E47FF;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  ;
+  
+}
+.text-primary{
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 12px 36px;
+  
+}
+
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 20px 50px;
+padding: 0px 50px;
+
+}
+h1{
+  color: #4E47FF;
+}
