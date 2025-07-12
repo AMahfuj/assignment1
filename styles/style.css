@@ -13,23 +13,20 @@
   font-style: normal;
 }
 
-button {
+button  {
   border-color: #4E47FF;
   background-color: #4E47FF;
   border-radius: 10px;
   background-repeat: no-repeat;
-
-
-
-
-
 }
-
 .text-primary {
   color: #FFFFFF;
   font-weight: bold;
   padding: 12px 36px;
-
+}
+.text-primary:hover{
+  background-color: yellow;
+  cursor: pointer;
 }
 
 nav {
@@ -103,19 +100,20 @@ header {
 }
 
 .pu-section {
-  background: #e5e8f9;
-  border-radius: 16px;
-  padding: 30px 20px;
-  max-width: 800px;
-  width: 100%;
-  text-align: center;
-  margin: 50px 200px;
+        background: #e5e8f9;
+      border-radius: 16px;
+      padding: 30px 20px;
+      max-width: 800px;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      margin-left: 200px;
+      margin-top: 50px;
+    }
 
-
-
-}
 
 .pu-title {
+  font-weight: bold;
 
   font-size: 1.25rem;
   color: #333;
@@ -147,23 +145,9 @@ header {
   margin-top: 6px;
 }
 
-h2 {
-  text-align: center;
-  font-weight: normal;
-  font-size: 38px;
-}
 
-.data {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  font-size: 3rem;
-  font-weight: bold;
-  color: #4a55e2;
-  margin: 0;
-  line-height: 1;
-}
+
+
 
 .contact-container {
   display: flex;
@@ -173,6 +157,7 @@ h2 {
   max-width: 1000px;
   margin: 0 auto;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .contact-title {
@@ -230,7 +215,7 @@ textarea {
 }
 
 .submit-btn:hover {
-  background-color: #3b44c8;
+  background-color: yellow;
 }
 
 
@@ -281,3 +266,59 @@ font-size: 5rem;
 
 
 }
+ .testimonials-section {
+      text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .testimonials-section h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color: #2c2c3a;
+    }
+
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      padding: 20px;
+      max-width: 300px;
+      flex: 1 1 250px;
+      text-align: left;
+    }
+
+    .stars {
+      color: #ffc107; /* Yellow stars */
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+
+    .quote {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+   
